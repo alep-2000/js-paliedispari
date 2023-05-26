@@ -16,9 +16,9 @@ console.log(word_reverse)
 let word_join= word_reverse.join('') 
 console.log(word_join);
 
-function palindrom (word){
-    console.log(word);
-    if(word_join === word){
+function palindrom (parola){
+    console.log(parola);
+    if(word_join.toLowerCase() === parola.toLowerCase()){
         console.log("E' PALINDROMA");
     }
     else{
