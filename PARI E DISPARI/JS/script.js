@@ -8,6 +8,12 @@ console.log(pariOdispari);
 let num_utente= parseInt(prompt('Inserisci un numero tra 1 e 5'));
 console.log(num_utente);
 
+// CONTROLLO SE L'UTENTE INSERISCE UN NUMERO
+while(isNaN(num_utente)){
+    num_utente= (parseInt(prompt('Inserisci un numero tra 1 e 5')));
+    console.log(num_utente);
+}
+
 // CREARE FUNZIONE PER GENERARE NUMERO RANDOM PC
 
 let pc='';
